@@ -3,7 +3,7 @@
 	<div class="col-lg-12 well">
 		<div class="row">
 			<?php
-				
+			error_reporting(0);	
 			$error = false;
 			$fname = $lname = $gender = $address = $city = $state = $zip = $phone = $email = $pass = "";
 			$fnameErr = $lnameErr = $gender = $addressErr = $cityErr = $stateErr = $zipErr = $phoneErr = $emailErr = $passErr = $cpassErr = $agreeErr = "";

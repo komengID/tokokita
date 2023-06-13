@@ -2,9 +2,9 @@
 
 // Connection variables
 $host = "localhost";
-$user = "id10149176_eirenekw";
-$pass = "admin123";
-$dbs = "id10149176_miistore";
+$user = "root";
+$pass = "";
+$dbs = "miistore";
 
 // Connect to MySQLi database
 $conn = mysqli_connect($host, $user, $pass, $dbs);
