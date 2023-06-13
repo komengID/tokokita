@@ -36,7 +36,7 @@ if((isset($_COOKIE['user_id']) && $_COOKIE['user_id'] != '') || (isset($_SESSION
     <![endif]-->
 	
 </head>
-<body class="background-black">
+<body class="background-white">
 	<?php
 	include "connect.php";
 	
